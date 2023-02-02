@@ -7,7 +7,8 @@ function HoverAvatar() {
 
                 
                 <button className='w-40 z-10 w-40 h-40 flex justify-center items-center'>
-                    <img alt='floating avatar' className='drop-shadow-xl' src='memoji-vid.mov' ></img>
+                    <img alt='floating avatar' className='drop-shadow-xl' src='memoji-gif3.gif' ></img>
+                    
                 </button>
                 {/* <svg className='absolute' viewBox="-150 -150 200 200" xmlns="http://www.w3.org/2000/svg">
                     <motion.path 

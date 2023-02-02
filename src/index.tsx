@@ -12,6 +12,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
+import Reloaded from './pages/projectPages/Reloaded';
 
 //components
 import Header from './components/Header'
@@ -34,6 +35,7 @@ root.render(
         <Route path='/projects' element={<Projects/>} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/projects/reloaded' element={<Reloaded />} />
       </Routes>
     </BrowserRouter>
 

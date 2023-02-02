@@ -7,7 +7,8 @@ module.exports = {
     "./src/pages/*.{js,ts,jsx,tsx}",
     "./src/pages/projects/*.{js,ts,jsx,tsx}",
     "./src/components/*.{js,ts,jsx,tsx}",
-    "./src/components/partials/*.{js,ts,jsx,tsx}"
+    "./src/components/partials/*.{js,ts,jsx,tsx}",
+    "./src/pages/projectPages/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     
@@ -18,6 +19,9 @@ module.exports = {
           default: '#121212',
           dark: '#121212'
         }
+      },
+      dropShadow: {
+        '3xl': '0.75rem 0.5rem 0.5rem black'
       }
       
     }

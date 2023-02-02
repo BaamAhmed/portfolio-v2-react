@@ -11,6 +11,7 @@ function Header() {
         document.title = 'Bassam Ahmed'
     }, [])
 
+
     return(
         <>
             <div className='fixed z-10 left-0 right-0'>
@@ -29,7 +30,7 @@ function Header() {
                 </div>
                 {showMenu ?
                 <div className="block md:hidden flex flex-col headerbg p-6 pt-0">
-                    <a className="py-2 no-underline hover:overline " href="/home">Home</a>
+                    <a className="py-2 no-underline hover:overline " href="/">Home</a>
                     <a className="py-2 no-underline hover:overline " href="/about">About</a>
                     <a className="py-2 no-underline hover:overline " href="/projects">Projects</a>
                     <a className="py-2 no-underline hover:overline " href="/experience">Experience</a>
