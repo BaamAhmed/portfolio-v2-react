@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import {CgMenuGridO} from 'react-icons/cg'
 import {HiMoon} from 'react-icons/hi'
 
@@ -7,13 +7,12 @@ function Header() {
     const handleClick = () => {
         setShowMenu(!showMenu)
     }
-    
+    useEffect(() => {
+        document.title = 'Bassam Ahmed'
+    }, [])
 
     return(
         <>
-            <head>
-                <title>Bassam Ahmed</title>
-            </head>
             <div className='fixed z-10 left-0 right-0'>
 
                 <div className="flex justify-between px-6 md:px-12 py-4 headerbg">

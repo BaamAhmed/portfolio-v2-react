@@ -1,11 +1,13 @@
 import React from 'react'
 import HoverAvatar from '../components/Floater'
+import Header from '../components/Header'
 
 const About = () => {
     
 
     return (
         <>
+            <Header/>
             <div className="grid grid-cols-1 p-6 md:p-10 pb-0 md:grid-cols-2 min-h-screen ">
                 <div className="flex justify-center mt-10 flex-col">
                     <h1 className="text-6xl font-semibold mb-6">about</h1>

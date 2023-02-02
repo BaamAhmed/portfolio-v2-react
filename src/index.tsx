@@ -22,14 +22,18 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <head>
+      <title>Bassam Ahmed</title>
+      
+    </head>
     <Header />
     <BrowserRouter>
       <Routes>
         <Route index element={<Home/>} />
-        <Route path='about' element={<About/>} />
-        <Route path='projects' element={<Projects/>} />
-        <Route path='experience' element={<Experience />} />
-        <Route path='contact' element={<Contact/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/projects' element={<Projects/>} />
+        <Route path='/experience' element={<Experience />} />
+        <Route path='/contact' element={<Contact/>} />
       </Routes>
     </BrowserRouter>
 
