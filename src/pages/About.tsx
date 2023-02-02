@@ -14,7 +14,7 @@ const About = () => {
 
                 </div>
                 <div className='flex justify-center items-center p-6 md:p-10'>
-                    <img src="/pic.jpg" className='rounded-xl drop-shadow-xl' alt="" />
+                    <img src="/pic.jpg" className='rounded-xl drop-shadow-xl' alt="Bassam Ahmed" />
                 </div>
             </div>
             

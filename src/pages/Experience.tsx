@@ -1,5 +1,4 @@
 import React from 'react'
-import {VscDebugBreakpointData} from 'react-icons/vsc'
 import ExpCard from '../components/ExpCard'
 import HoverAvatar from '../components/Floater'
 
