@@ -13,6 +13,9 @@ import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 import Reloaded from './pages/projectPages/Reloaded';
+import Aurparho from './pages/projectPages/Aurparho';
+import Ava from './pages/projectPages/Ava';
+import Nitoxi from './pages/projectPages/Nitoxi';
 
 //components
 import Header from './components/Header'
@@ -36,6 +39,11 @@ root.render(
         <Route path='/experience' element={<Experience />} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/projects/reloaded' element={<Reloaded />} />
+        <Route path='/projects/aurparho' element={<Aurparho />} />
+        <Route path='/projects/ava' element={<Ava />} />
+        <Route path='/projects/nitoxi' element={<Nitoxi />} />
+        
+
       </Routes>
     </BrowserRouter>
 
