@@ -1,7 +1,7 @@
 import React from 'react'
 import StackCard from '../../components/StackCard'
 import {FaNodeJs} from 'react-icons/fa'
-import { SiTailwindcss, SiMongodb, SiTwilio, SiHeroku } from 'react-icons/si'
+import { SiTailwindcss, SiMongodb, SiHeroku } from 'react-icons/si'
 
 function Ava(){
 
