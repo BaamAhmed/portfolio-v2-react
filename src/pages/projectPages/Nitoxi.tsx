@@ -1,7 +1,7 @@
 import React from 'react'
 import StackCard from '../../components/StackCard'
 import {FaNodeJs} from 'react-icons/fa'
-import { SiTailwindcss, SiMongodb, SiHeroku, SiExpress, SiBootstrap, SiReact } from 'react-icons/si'
+import { SiMongodb, SiHeroku, SiExpress, SiBootstrap, SiReact } from 'react-icons/si'
 
 function Nitoxi(){
 
