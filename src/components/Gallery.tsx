@@ -44,7 +44,7 @@ function Gallery (props: {images: Array<String>, projectname: String}) {
                 }
             }}
             onRequestClose={handleClose}
-            isOpen={!(showPic == '')}
+            isOpen={!(showPic === '')}
             shouldFocusAfterRender={false}
             shouldCloseOnOverlayClick={true}
             

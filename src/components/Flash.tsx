@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import {GrFormClose} from 'react-icons/gr'
 
 function Flash() {
     const [showMsg, setShowMsg] = useState(true)
