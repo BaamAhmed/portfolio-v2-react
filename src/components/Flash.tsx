@@ -8,7 +8,7 @@ function Flash() {
     }
 
     return (
-        <>
+        <div className='mt-10'>
             {showMsg && 
             <div className="flex flex-col justify-between col-span-1 md:col-span-2 bg-green-600 mt-10 rounded-lg">
                 <h1 className='mb-1 p-3'>
@@ -24,7 +24,7 @@ function Flash() {
                 </button>
 
             </div>}
-        </>
+        </div>
     )
 }
 

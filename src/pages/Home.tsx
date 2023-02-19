@@ -6,9 +6,9 @@ import Flash from '../components/Flash';
 function Home() {
     
     return (
-        <div className='p-0 md:p-10'>
-            <Flash/>
-            <div className="grid grid-cols-1 md:grid-cols-2 p-5 md:p-6 md:p-10 min-h-screen md:px-10 md:px-20">
+        <div className='p-6 md:p-10'>
+            <Flash />
+            <div className="grid grid-cols-1 md:grid-cols-2 p-0 md:p-6 md:p-10 min-h-screen md:px-10 md:px-20">
                 <div className="flex flex-col justify-center align-center">
                     <h4 className="text-lg">Hello there!</h4>
                     
