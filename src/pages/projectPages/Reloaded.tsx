@@ -1,9 +1,8 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {FaNodeJs} from 'react-icons/fa'
 import {SiTailwindcss, SiMongodb, SiTwilio, SiHeroku} from 'react-icons/si'
 import StackCard from '../../components/StackCard'
-import Slider from 'react-slick'
-import ReactModal from 'react-modal'
+
 
 import Gallery from '../../components/Gallery'
 
