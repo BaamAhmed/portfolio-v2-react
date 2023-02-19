@@ -12,7 +12,7 @@ const Experience = () => {
                         title='software engineer intern'
                         bgcolor='bg-red-500'
                         company='Hul Hub (SBT Japan)'
-                        loc='Remote'
+                        loc='Karachi, Pakistan'
                         pointsArr={[
                             'Developed a Jira Cloud app using the Atlassian Forge framework in combination with a modern React stack to automate collection of Jira-based metrics (story points, time logged, etc.) and calculation of various parameters (delivery rate, growth rate, etc.) to gauge developer performance',
                             'Worked in a cross functional team of 15 developers, business analysts, and product managers - learned and cultivated key collaboration skills',
