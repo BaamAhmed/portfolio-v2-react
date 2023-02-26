@@ -14,7 +14,7 @@ function Ava(){
                         <h1 className="text-5xl md:text-6xl font-light mb-6">projects<span className="block mt-5 md:mt-0 md:inline font-bold text-cyan-500">/AVA</span></h1>
                         <p className='text-lg mb-7'>Almost complete, the goal of this project is to make technology make more sense to those who may struggle with it. Users can simply type in their questions, and Ava (a GPT3 bot) would be more than happy to help!</p>
                         <div className='flex'>
-                            <a className='p-3 px-10 mr-3 rounded-lg bg-cyan-500 hover:bg-cyan-900' href="https://avaai.netlify.app">Demo</a>
+                            <a className='p-3 px-10 mr-3 rounded-lg bg-cyan-500 hover:bg-cyan-900' href="https://ava-devbuild.vercel.app">Demo</a>
                             
                         </div>
 
