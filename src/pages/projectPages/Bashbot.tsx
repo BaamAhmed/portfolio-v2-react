@@ -1,6 +1,6 @@
 import React from 'react'
 import StackCard from '../../components/StackCard'
-import { SiPython, SiOpenai, SiNextdotjs, SiReact, SiJavascript } from 'react-icons/si'
+import { SiPython, SiOpenai} from 'react-icons/si'
 
 import Gallery from '../../components/Gallery'
 
