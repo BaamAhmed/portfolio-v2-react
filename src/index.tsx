@@ -16,6 +16,7 @@ import Reloaded from './pages/projectPages/Reloaded';
 import Aurparho from './pages/projectPages/Aurparho';
 import Ava from './pages/projectPages/Ava';
 import Nitoxi from './pages/projectPages/Nitoxi';
+import Bashbot from './pages/projectPages/Bashbot';
 
 //components
 import Header from './components/Header'
@@ -42,6 +43,7 @@ root.render(
         <Route path='/projects/aurparho' element={<Aurparho />} />
         <Route path='/projects/ava' element={<Ava />} />
         <Route path='/projects/nitoxi' element={<Nitoxi />} />
+        <Route path='/projects/bashbot' element={<Bashbot />} />
         
 
       </Routes>
