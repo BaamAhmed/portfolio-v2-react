@@ -15,6 +15,7 @@ function Bashbot(){
                         <p className='text-lg mb-7'>BashBot brings the power of OpenAI's gpt-3.5-turbo to your command-line, plus gives you the additional ability to work in the console while talking to ChatGPT, autosaving code that ChatGPT generates, and giving you the ability to quickly save, run, and view that generated code.</p>
                         <div className='flex'>
                             <a className='p-3 px-10 mr-3 rounded-lg bg-purple-500 hover:bg-purple-900' href="https://github.com/BaamAhmed/bashbot-dist">Repo</a>
+                            <a className='p-3 px-10 mr-3 rounded-lg bg-cyan-500 hover:bg-cyan-900' href="https://pypi.org/project/bashbot/0.0.2/">PyPI project</a>
                             
                         </div>
 
