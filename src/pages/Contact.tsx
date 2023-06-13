@@ -23,7 +23,7 @@ const Contact = () => {
                             <input required name='firstName' placeholder="First Name" type="text" className="rounded-md inputbg py-2 px-4" />
                             <input name='lastName' placeholder="Last Name" type="text" className="rounded-md inputbg py-2 px-4" />
                         </div>
-                        <input required name='email' placeholder="Email Address" type="text" className="rounded-md w-full inputbg py-2 px-4 mb-2"/>
+                        <input required name='email' placeholder="Email Address" type="email" className="rounded-md w-full inputbg py-2 px-4 mb-2"/>
                         <textarea required name="msg" placeholder="Go ahead, I'm listening..." className="mb-2 rounded-md inputbg w-full py-2 px-4" id="" cols={30} rows={10}></textarea>
                         <button className="rounded-md bg-purple-500 font-semibold text-center w-full py-2 hover:bg-slate-400">Submit</button>
                     </form>
