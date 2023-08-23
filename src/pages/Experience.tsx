@@ -10,6 +10,19 @@ const Experience = () => {
                 <div className="grid grid-cols-1">
                     <ExpCard 
                         title='software engineer intern'
+                        bgcolor='bg-emerald-500'
+                        company='Microart Services Inc.'
+                        loc='Markham, ON, Canada'
+                        pointsArr={[
+                            'Implemented a complete image-search feature using Google Cloud Vision and Firebase Functions for image-to-text, and PostgreSQL full-text search for querying the database using the detected text',
+                            'Configured and integrated Google Firebase Storage into the React Native app',
+                            'Developed numerous app screens and UI/UX elements according to provided UI designs',
+                            'Debugged app’s connection and interaction with BLE (Bluetooth Low Energy) devices'
+                        ]}
+                    />
+
+                    <ExpCard 
+                        title='software engineer intern'
                         bgcolor='bg-red-500'
                         company='Hul Hub (SBT Japan)'
                         loc='Karachi, Pakistan'
