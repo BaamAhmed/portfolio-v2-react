@@ -1,5 +1,4 @@
 import React from 'react'
-import {FaNodeJs} from 'react-icons/fa'
 import {SiNextdotjs, SiFirebase, SiGooglecloud, SiPython} from 'react-icons/si'
 import StackCard from '../../components/StackCard'
 
