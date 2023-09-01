@@ -64,7 +64,7 @@ function Gallery (props: {images: Array<String>, projectname: String}) {
                 {props.images.map((item) => {
                     return (
                         <button onClick={handleClick}>
-                            <img src={`../${props.projectname}pics/${item}`} className='h-full w-full' alt="helo" />
+                            <img src={`../${props.projectname}pics/${item}`} className='h-full w-full px-3' alt="helo" />
                         </button>
                     )
                 })}

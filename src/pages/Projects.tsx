@@ -14,6 +14,7 @@ function Projects() {
                     <ProjectCard bgcolor='bg-yellow-500' name='AurParho' para='My first ever web app, AurParho aimed to fixed a problem that I saw within my college: inefficient sharing of notes. As such, I built AurParho, so that everyone could access my class notes all in one place.' />
                     <ProjectCard bgcolor='bg-blue-500' name='AVA' para='An AI Chatbot built with the intent of helping people get their tech-related questions answered. Powered by the GPT3 API provided by OpenAI.' />
                     <ProjectCard bgcolor='bg-purple-500' name='BashBot' para= "BashBot brings the power of OpenAI's gpt-3.5-turbo to your command-line, plus gives you the additional ability to work in the console while talking to ChatGPT, autosaving code that ChatGPT generates, and giving you the ability to quickly save, run, and view that generated code." />
+                    <ProjectCard bgcolor='bg-white text-black' name='NoteSeek' para= "The goal of NoteSeek is to automate searching the web. Simply upload your document and get back an organized list of related websites, articles, and videos." />
                     {/* <ProjectCard bgcolor='bg-purple-500' name='Nitoxi' para='My first big React Native project, this mobile app allowed users to self-administer COV19 tests based on their sense of smell. The app used QR codes to verify test validity and user authentication, among other features.' /> */}
                 </div>
                 <HoverAvatar/>

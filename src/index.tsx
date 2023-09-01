@@ -17,6 +17,7 @@ import Aurparho from './pages/projectPages/Aurparho';
 import Ava from './pages/projectPages/Ava';
 import Nitoxi from './pages/projectPages/Nitoxi';
 import Bashbot from './pages/projectPages/Bashbot';
+import Noteseek from './pages/projectPages/Noteseek';
 
 //components
 import Header from './components/Header'
@@ -44,6 +45,7 @@ root.render(
         <Route path='/projects/ava' element={<Ava />} />
         <Route path='/projects/nitoxi' element={<Nitoxi />} />
         <Route path='/projects/bashbot' element={<Bashbot />} />
+        <Route path='/projects/noteseek' element={<Noteseek />} />
         
 
       </Routes>
