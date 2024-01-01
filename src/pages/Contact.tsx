@@ -8,7 +8,7 @@ const Contact = () => {
                     <a rel="noreferrer" target="_blank" href="https://github.com/BaamAhmed" className="rounded-lg hover:bg-slate-400 bg-red-400 text-center py-3 px-5">
                         <p className="font-semibold">GitHub</p>
                     </a>
-                    <a rel="noreferrer" target="_blank" href="https://aurparhobucket.s3.ap-south-1.amazonaws.com/Bassam_Ahmed_resume_python.pdf" className="rounded-lg hover:bg-slate-400 bg-yellow-400 text-center py-3 px-5">
+                    <a rel="noreferrer" target="_blank" href="https://aurparhobucket.s3.ap-south-1.amazonaws.com/Bassam_Ahmed_resume_v15.pdf" className="rounded-lg hover:bg-slate-400 bg-yellow-400 text-center py-3 px-5">
                         <p className="font-semibold">Download Resume</p>
                     </a>
                     <a rel="noreferrer" target='_blank' href="https://www.linkedin.com/in/baamahmed/" className="rounded-lg hover:bg-slate-400 bg-blue-400 text-center py-3 px-5">
