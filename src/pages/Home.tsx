@@ -19,7 +19,7 @@ function Home() {
             setOpacity(0);
             setTimeout(() => {
                 setSubtitleID(currID => {
-                    if (currID == SUBTITLES.length - 1) {
+                    if (currID === SUBTITLES.length - 1) {
                         return 0;
                     } else {
                         return currID + 1
