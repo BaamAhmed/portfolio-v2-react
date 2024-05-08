@@ -1,9 +1,47 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import {motion} from 'framer-motion'
 import Flash from '../components/Flash';
 
+const SUBTITLES = [
+    "I can write regex. I will cry while doing it but I can do it.",
+    "Robust code >>> Quick code. Everytime.",
+    "Big fan of ESLint",
+    "Turning caffeine into code since day one",
+    "Is it a bug or is it a feature?"
+]
 
 function Home() {
+    const [subtitleID, setSubtitleID] = useState(0);
+    const [opacity, setOpacity] = useState(1);
+
+    useEffect(() => {
+        const textInterval = setInterval(() => {
+            setOpacity(0);
+            setTimeout(() => {
+                setSubtitleID(currID => {
+                    if (currID == SUBTITLES.length - 1) {
+                        return 0;
+                    } else {
+                        return currID + 1
+                    }
+                })
+                setOpacity(1);
+            }, 500)
+        }, 5000)
+        
+
+        return () => {
+            clearInterval(textInterval)
+            // clearInterval(opacityInterval)
+        }
+    }, [])
+
+    // useEffect(() => {
+    //     setOpacity(0);
+    //     setTimeout(() => {
+    //         setOpacity(1);
+    //     }, 1000)
+    // }, [subtitleID])
     
     return (
         <div className='p-6 md:p-10'>
@@ -13,7 +51,7 @@ function Home() {
                     <h4 className="text-lg">Hello there!</h4>
                     
                     <h1 className="text-6xl">I&apos;m <strong>Bassam</strong> Ahmed</h1>
-                    <p className="text-md mb-7">Code. Coffee. Absolutely crushing existential dread. Sleep. Repeat.</p>
+                    <p style={{opacity: opacity, transition: 'opacity 500ms ease-in'}} className="text-md mb-7">{SUBTITLES[subtitleID]}</p>
                     <div>
                         <a href="/projects" className="font-semibold rounded-lg hover:bg-rose-700 bg-rose-500 text-center py-3 px-5">
                             check out my stuff

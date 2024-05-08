@@ -10,6 +10,19 @@ const Experience = () => {
                 <div className="grid grid-cols-1">
                     <ExpCard 
                         title='software engineer intern'
+                        bgcolor='bg-fuchsia-400'
+                        company='PlayStation (Sony Interactive Entertainment)'
+                        loc='Waterloo, ON, Canada'
+                        pointsArr={[
+                            'Addressed SVG asset rendering issues by patching an internal version of the React Native Windows (RNW) open-source framework with modifications to the C++ source code',
+                            'Enhanced image rendering logic in RNW, achieving a remarkable 20x boost in performance and memory efficiency in specific processes by adopting a context-sensitive approach',
+                            'Contributed to multiple significant updates of an internal Windows-based UI framework written in TypeScript, impacting various components and applications across the system',
+                            'Improved testing efficiency and reliability by implementing automated unit and integration testing for an internal TypeScript module; used Jest as the testing framework of choice',
+                            'Collaborated in a company-wide, international hackathon and demonstrated teamwork skills in a fast-paced, collaborative environment to deliver a non-trivial PS5 application as part of a team project'
+                        ]}
+                    />
+                    <ExpCard 
+                        title='software engineer intern'
                         bgcolor='bg-emerald-500'
                         company='Microart Services Inc.'
                         loc='Markham, ON, Canada'
